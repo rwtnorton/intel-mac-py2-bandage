@@ -41,3 +41,9 @@ this problem.  Until then, better than nothing I guess.
 
 I take no responsibility for what this might do to your computer.
 It works on *my* Intel Mac but you never know with these things.
+
+### Will this work on an M1 Mac?
+
+I seriously doubt it.  While the compiled Python files (.pyc) should
+be portable, there are some native compiled files (.so) that I would
+expect to be particular to an Intel architecture.
