@@ -19,6 +19,7 @@ This repo holds a tarball of a `Python.framework/` from an unupgraded
 Intel Mac.  The idea is to unpack the tarball at a sister directory
 (because things under `/System` are read-only by default for security).
 
+From a terminal (e.g., `Terminal.app`, `iTerm.app`, etc.):
 ```
 $ cd /Library/Frameworks
 $ mv {,.old.}Python.framework  # just in case, rename the old
