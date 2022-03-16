@@ -23,6 +23,8 @@ Intel Mac.  The idea is to unpack the tarball at a sister directory
 $ cd /Library/Frameworks
 $ mv {,.old.}Python.framework  # just in case, rename the old
 $ bzip2 -cd $path_to_repo/py2.tar.bz2 | tar xvf -
+### Or as root:
+$ sudo bash -c 'bzip2 -cd $path_to_repo/py2.tar.bz2 | tar xvf -'
 ```
 
 Now, there should be a Python 2 interpreter here:
